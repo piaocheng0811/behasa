@@ -3,7 +3,7 @@
         <div class="col-xl-4 col-lg-5">
             <b-card class="bg-info-card">
                 <div class="profile text-center ">
-                    <img :src="this.$store.state.user.picture" alt="User Image" class="rounded-circle img-fluid profile-thumb mb-3">
+                    <img :src="this.$store.state.user.photo" alt="User Image" class="rounded-circle img-fluid profile-thumb mb-3">
                     <h4 class="text-gray">{{this.$store.state.user.name}}</h4>
                     <p>{{this.$store.state.user.job}}</p>
                     <div class="row">

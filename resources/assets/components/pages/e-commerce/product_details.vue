@@ -80,4 +80,4 @@ export default {
 </script>
 <!-- styles -->
 <!-- adding scoped attribute will apply the css to this component only -->
-<style scoped src="assets/sass/product_details.scss"></style>
+<!--<style scoped src="assets/sass/product_details.scss"></style>-->

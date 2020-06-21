@@ -1,15 +1,15 @@
 <template>
     <div class="row">
-        <div class="col-lg-12 mb-3">
-            <b-card header="Basic Client Table" header-tag="h4" class="bg-danger-card">
-                <v-client-table :data="tableData" :columns="columns" :options="options"></v-client-table>
-            </b-card>
-        </div>
-        <div class="col-lg-12 mb-3">
-            <b-card header="AJAX Client Table" header-tag="h4" class="bg-info-card">
-                <v-client-table :data="tableData2" :columns="columns" :options="options"></v-client-table>
-            </b-card>
-        </div>
+<!--        <div class="col-lg-12 mb-3">-->
+<!--            <b-card header="Basic Client Table" header-tag="h4" class="bg-danger-card">-->
+<!--                <v-client-table :data="tableData" :columns="columns" :options="options"></v-client-table>-->
+<!--            </b-card>-->
+<!--        </div>-->
+<!--        <div class="col-lg-12 mb-3">-->
+<!--            <b-card header="AJAX Client Table" header-tag="h4" class="bg-info-card">-->
+<!--                <v-client-table :data="tableData2" :columns="columns" :options="options"></v-client-table>-->
+<!--            </b-card>-->
+<!--        </div>-->
         <div class="col-lg-12 mb-3">
             <b-card header="Vue2-datatable" header-tag="h4" class="bg-success-card">
                 <datatable title="" :rows="rowdata" :columns="columndata"></datatable>
@@ -32,7 +32,8 @@ export default {
     },
     data() {
         return {
-            rowdata: [{
+            rowdata: [
+                {
                 "fname": "Gale",
                 "lname": "Mcmyne",
                 "age": 16,

@@ -12,7 +12,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import "../../../css/customvariables";
+/*@import "../../../css/customvariables";*/
 li.menu_item>a {
     color: $menu_color;
     position: relative;

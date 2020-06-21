@@ -78,49 +78,4 @@ export default {
     }
 }
 </script>
-<style>
-.ss-wrapper {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
-    float: left;
-}
 
-.ss-content {
-    height: 100%;
-    width: 100%;
-    padding: 0 18px 0 0;
-    position: relative;
-    right: -18px;
-    overflow: auto;
-    box-sizing: border-box;
-}
-
-.ss-scroll {
-    position: relative;
-    background: rgba(0, 0, 0, 0.1);
-    width: 9px;
-    border-radius: 4px;
-    top: 0;
-    z-index: 2;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.25s linear;
-}
-
-.ss-hidden {
-    display: none;
-}
-
-.ss-container:hover .ss-scroll,
-.ss-scroll.ss-grabbed,
-.ss-scroll.visible {
-    opacity: 1;
-}
-
-.ss-grabbed {
-    user-select: none;
-}
-</style>

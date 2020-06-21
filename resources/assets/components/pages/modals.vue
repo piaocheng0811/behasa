@@ -175,34 +175,3 @@
         }
     }
 </script>
-<style>
-    #modal8 .modal-header,
-    #modal8 .modal-footer {
-        background-color: #3a7db5;
-    }
-
-    #modal9 .modal-header,
-    #modal9 .modal-footer {
-        background-color: #4FC1E9;
-    }
-
-    #modal10 .modal-header,
-    #modal10 .modal-footer {
-        background-color: #f89a14;
-    }
-
-    #modal11 .modal-header,
-    #modal11 .modal-footer {
-        background-color: #DC6460;
-    }
-
-    #modal13 .modal-header,
-    #modal13 .modal-footer {
-        background-color: #dcdcdc;
-    }
-
-    #modal12 .modal-header,
-    #modal12 .modal-footer {
-        background-color: #09BD8F;
-    }
-</style>

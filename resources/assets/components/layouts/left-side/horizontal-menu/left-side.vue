@@ -119,7 +119,7 @@ export default {
     }
 }
 </script>
-<style src="./css/default.scss" lang="scss"></style>
+<!--<style src="./css/default.scss" lang="scss"></style>-->
 <style scoped lang="scss">
 @import "../../css/customvariables";
 .left-aside {

@@ -1,18 +1,25 @@
 <template>
     <div class="card p-3">
-        <div class="table-header">
-            <h4 class="table-title text-center mt-3">{{title}}</h4>
-        </div>
+<!--        <div class="table-header">-->
+<!--            <h4 class="table-title text-center mt-3">{{title}}</h4>-->
+<!--        </div>-->
         <div class="text-left">
             <div id="search-input-container">
+                <div class="row-shorter">
+                    <span>Rows per page:</span>
+                    <select class="custom-select" v-model="currentPerPage">
+                        <option v-for="len in pagelen" :value="len" :key="len">{{len}}</option>
+                        <option value="-1">All</option>
+                    </select>
+                </div>
                 <label>
                     <input type="search" id="search-input" class="form-control mb-2" placeholder="Search data" v-model="searchInput">
                 </label>
-                <div class="actions float-right pr-4 mb-3">
-                    <a href="javascript:undefined" class="btn btn-info text-white" v-if="this.exportable" @click="exportExcel" title="export excel">
-                        <i class="fa fa-download"></i>
-                    </a>
-                </div>
+<!--                <div class="actions float-right pr-4 mb-3">-->
+<!--                    <a href="javascript:undefined" class="btn btn-info text-white" v-if="this.exportable" @click="exportExcel" title="export excel">-->
+<!--                        <i class="fa fa-download"></i>-->
+<!--                    </a>-->
+<!--                </div>-->
             </div>
         </div>
         <div class="table-responsive">
@@ -35,7 +42,7 @@
                             <td :class="column.numeric ? 'numeric' : ''" v-if="!column.html" :key="index">
                                 {{ collect(row,column.field) }}
                             </td>
-                            <td :class="column.numeric ? 'numeric' : ''" v-html="collect(row, column.field)" v-if="column.html" :key="index">
+                            <td :class="column.numeric ? 'numeric' : ''" v-html="collect(row, column.field)" v-if="column.html" @click="handleClick" :key="index">
                             </td>
                         </template>
                         <slot name="tbody-tr" :row="row"></slot>
@@ -45,11 +52,7 @@
         </div>
         <div class="table-footer" v-if="paginate">
             <div class="datatable-length float-left pl-3">
-                <span>Rows per page:</span>
-                <select class="custom-select" v-model="currentPerPage">
-                    <option v-for="len in pagelen" :value="len" :key="len">{{len}}</option>
-                    <option value="-1">All</option>
-                </select>
+
                 <div class="datatable-info  pb-2 mt-3">
                     <span>Showing </span> {{(currentPage - 1) * currentPerPage ? (currentPage - 1) * currentPerPage : 1}} -{{currentPerPage==-1?processedRows.length:Math.min(processedRows.length,
                     currentPerPage * currentPage)}} of {{processedRows.length}}
@@ -59,13 +62,13 @@
             <div class="float-right">
                 <ul class="pagination">
                     <li>
-                        <a href="javascript:undefined" class="btn link" @click.prevent="previousPage" tabindex="0">
-                            <i class="fa fa-angle-left"></i>
+                        <a href="javascript:undefined" class=" link" @click.prevent="previousPage" tabindex="0">
+                            < PREV
                         </a>
-                    </li>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;
                     <li>
-                        <a href="javascript:undefined" class="btn link" @click.prevent="nextPage" tabindex="0">
-                            <i class="fa fa-angle-right"></i>
+                        <a href="javascript:undefined" class=" link" @click.prevent="nextPage" tabindex="0">
+                            NEXT >
                         </a>
                     </li>
                 </ul>
@@ -108,14 +111,17 @@
 
         data() {
             return {
+                data:{},
                 currentPage: 1,
                 currentPerPage: this.perPage,
                 sortColumn: -1,
                 sortType: 'asc',
                 searchInput: '',
+                CategoryStatus:[]
             }
         },
         mounted() {
+
             this.sort(0);
         },
         methods: {
@@ -206,6 +212,15 @@
                     return this.dig(obj, field);
                 else
                     return undefined;
+            },
+            handleClick(e){
+                if (e.target.attributes.target_id){
+                    let data={};
+                    data['id']=e.target.attributes.target_id.value;
+                    data['action']=e.target.attributes.action.value;
+                    data['target']=e.target;
+                    this.$emit('input',data);
+                }
             }
         },
 
@@ -265,11 +280,20 @@
     }
 </script>
 <style scoped>
+    #search-input-container{
+        text-align: right;
+    }
+    #search-input-container label{
+        float: right;
+    }
     .pagination {
         margin-top: 12px;
     }
 
     .sortable {
         cursor: pointer;
+    }
+    .row-shorter{
+        float: left;
     }
 </style>

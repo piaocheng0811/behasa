@@ -1,9 +1,124 @@
 const layout = [
     {
         path: '/',
-        component: resolve => require(['pages/index'], resolve),
+        name:'Admin Dashboard',
+        component: resolve => require(['pages/admin/index'], resolve),
         meta: {
-            title: "Dashboard",
+            title: "Admin Dashboard",
+        }
+    },
+    {
+        path: '/admin/users',
+        component: resolve => require(['pages/admin/users'], resolve),
+        meta: {
+            title: "Users",
+        }
+    },
+    {
+        path: '/admin/users/create',
+        component: resolve => require(['pages/admin/create-user'], resolve),
+        meta: {
+            title: "User Registration",
+        }
+    },
+    {
+        path: '/admin/users/view/:id',
+        props: true,
+        component: resolve => require(['pages/admin/view-user'], resolve),
+        meta: {
+            title: "View User",
+        }
+    },
+    {
+        path: '/admin/users/edit/:id',
+        props: true,
+        component: resolve => require(['pages/admin/edit-user'], resolve),
+        meta: {
+            title: "Edit User",
+        }
+    },
+    {
+        path: '/admin/category',
+        component: resolve => require(['pages/admin/category'], resolve),
+        meta: {
+            title: "Category",
+        }
+    },
+    {
+        path: '/admin/category/edit/:category_id',
+        component: resolve => require(['pages/admin/edit-category'], resolve),
+        meta: {
+            title: "Edit Category",
+        }
+    },
+    {
+        path: '/admin/category/create',
+        component: resolve => require(['pages/admin/create-category'], resolve),
+        meta: {
+            title: "Create Category",
+        }
+    },
+    {
+        path: '/admin/topic-area',
+        component: resolve => require(['pages/admin/topic_area'], resolve),
+        meta: {
+            title: "List of Topic Area",
+        }
+    },
+    {
+        path: '/admin/topic-area/edit/:topic_id',
+        component: resolve => require(['pages/admin/edit-topic-area'], resolve),
+        meta: {
+            title: "Updating Existing Topic Area",
+        }
+    },
+    {
+        path: '/admin/topic-area/create',
+        component: resolve => require(['pages/admin/create-topic-area'], resolve),
+        meta: {
+            title: "Create a new Topic Area",
+        }
+    },
+    {
+        path: '/admin/questionmanagement',
+        component: resolve => require(['pages/admin/test'], resolve),
+        meta: {
+            title: "Questions List",
+        }
+    },
+    {
+        path: '/admin/questionmanagement/:category_id/:test_type/',
+        component: resolve => require(['pages/admin/question'], resolve),
+        meta: {
+            title: "Questions List",
+        }
+    },
+    {
+        path: '/admin/question-management-edit/:question_id',
+        component: resolve => require(['pages/admin/edit-question'], resolve),
+        meta: {
+            title: "Update Question",
+        }
+    },
+    {
+        path: '/admin/results',
+        component: resolve => require(['pages/admin/results'], resolve),
+        meta: {
+            title: "Test Results",
+        }
+    },
+    {
+        path: '/admin/reports',
+        component: resolve => require(['pages/admin/reports'], resolve),
+        meta: {
+            title: "Reports",
+        }
+    },
+    {
+        path: '/admin/logs',
+        component: resolve => require(['pages/admin/logs'], resolve),
+        meta: {
+            title: "Users Logs",
         }
     },
     {
@@ -28,49 +143,16 @@ const layout = [
         }
     },
     {
-        path: '/e_dashboard',
+        path: '/admin/e_dashboard',
         component: resolve => require(['pages/e-commerce/e_dashboard'], resolve),
         meta: {
-            title: "E dashboard",
+            title: "Studdents",
         }
     },
+
+
     {
-        path: '/cart_details',
-        component: resolve => require(['pages/e-commerce/cart_details'], resolve),
-        meta: {
-            title: "Cart Details",
-        }
-    },
-    {
-        path: '/product_gallery',
-        component: resolve => require(['pages/e-commerce/product_gallery'], resolve),
-        meta: {
-            title: "Product gallery",
-        }
-    },
-    {
-        path: 'form_elements',
-        component: resolve => require(['pages/form_elements'], resolve),
-        meta: {
-            title: "Form Elements",
-        }
-    },
-    {
-        path: 'form_validations',
-        component: resolve => require(['pages/form_validations'], resolve),
-        meta: {
-            title: " Form Validations",
-        }
-    },
-    {
-        path: 'dropdowns',
-        component: resolve => require(['pages/dropdowns'], resolve),
-        meta: {
-            title: " Dropdowns",
-        }
-    },
-    {
-        path: 'cards',
+        path: '/admin/reports',
         component: resolve => require(['pages/card'], resolve),
         meta: {
             title: " Cards",
@@ -84,7 +166,7 @@ const layout = [
         }
     },
     {
-        path: 'radios_checkboxes',
+        path: '/admin/results',
         component: resolve => require(['pages/radios_checkboxes'], resolve),
         meta: {
             title: " Radios & Checkboxes",

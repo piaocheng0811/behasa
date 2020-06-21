@@ -653,4 +653,4 @@ export default {
     },
 }
 </script>
-<style src="assets/css/widgets.css" scoped></style>
+

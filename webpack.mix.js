@@ -36,6 +36,7 @@ mix.webpackConfig({
             'pages': path.resolve(__dirname, 'resources/assets/components/pages/'),
             'img': path.resolve(__dirname, 'resources/assets/assets/img/'),
             'common':path.resolve(__dirname, 'resources/assets/common/'),
+            'public':path.resolve(__dirname, 'public/'),
         }
     },
     output: {

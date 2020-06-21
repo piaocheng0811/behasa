@@ -3,8 +3,10 @@
         <div class="user_section">
             <div class="row">
                 <div class="col-12">
-                    <div class="img-wrapper"><img :src="this.$store.state.user.picture" alt="user not found" class="rounded-circle"></div>
-                    <p class="mt-2 mb-1 user_name_max text-center">{{this.$store.state.user.name}}</p>
+                    <div class="img-wrapper">
+                        <img :src="this.$store.state.user.photo" alt="user not found" class="rounded-circle">
+                    </div>
+                    <p class="mt-2 mb-1 user_name_max text-center profile-name">{{this.$store.state.user.name}}</p>
                 </div>
                 <div class="leftuser_icons col-12 compact_data">
                     <div class="row">
@@ -42,6 +44,7 @@
     }
     .leftuser_icons .logout_padd{
         padding: 1px !important;
+        color: white;
     }
 }
 .user_name_max {
@@ -69,7 +72,15 @@
 }
 .user_name_max,
 .leftuser_icons i{
-    color:$menu_color;
+   // color:$menu_color;
+    color:white;
 }
+    .profile-name{
+        color:white;
+        font-family: sans-serif;
+    }
+    .compact_data{
+        color: white;
+    }
 
 </style>

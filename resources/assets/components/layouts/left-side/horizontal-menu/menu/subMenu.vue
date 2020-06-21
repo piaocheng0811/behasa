@@ -24,7 +24,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import "../../../css/customvariables";
+/*@import "../../../css/customvariables";*/
 .collapse-item {
     .submenu-header {
         cursor: pointer;

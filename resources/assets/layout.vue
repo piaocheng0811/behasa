@@ -23,7 +23,28 @@
 
     import 'assets/sass/custom.scss'
 
+    import anime from 'animejs'
 
+    export default {
+        name: 'layout',
+        components: {
+            preloader,
+            vueadmin_header,
+            left_side,
+            right_side
+        },
+        data() {
+            return {
+                showtopbtn: false
+            }
+        },
+        mounted() {
+            if (window.innerWidth <= 992) {
+                this.$store.commit('left_menu', 'close')
+            }
+        },
+
+    }
 //     import 'components/layouts/css/boxed.scss'
 
 
@@ -48,28 +69,7 @@
     /**
      * import animejs for the menu transition effects
      */
-    import anime from 'animejs'
 
-    export default {
-        name: 'layout',
-        components: {
-            preloader,
-            vueadmin_header,
-            left_side,
-            right_side
-        },
-        data() {
-            return {
-                showtopbtn: false
-            }
-        },
-        mounted() {
-            if (window.innerWidth <= 992) {
-                this.$store.commit('left_menu', 'close')
-            }
-        },
-
-    }
 </script>
 <style lang="scss" scoped>
     .wrapper:before,
@@ -99,6 +99,11 @@
 
     .right-aside {
         background-color: #ebf2f6 !important;
+    }
+
+    .panel-white-box{
+        background:white;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
     }
 
     @media (max-width: 992px) {

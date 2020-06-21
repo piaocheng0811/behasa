@@ -1,23 +1,23 @@
 const layout = [
     {
         path: '/',
-        component: resolve => require(['pages/index'], resolve),
+        component: resolve => require(['pages/home'], resolve),
         meta: {
-            title: "Dashboard",
+            title: 'home.labels.studentPortal',
         }
     },
     {
-        path: '/product_details',
+        path: '/results',
         component: resolve => require(['pages/e-commerce/product_details'], resolve),
         meta: {
-            title: "Product details",
+            title: "home.labels.results",
         }
     },
     {
-        path: '/product_edit',
+        path: '/practise',
         component: resolve => require(['pages/e-commerce/product_edit'], resolve),
         meta: {
-            title: "Product Edit",
+            title: "home.labels.practise",
         }
     },
     {

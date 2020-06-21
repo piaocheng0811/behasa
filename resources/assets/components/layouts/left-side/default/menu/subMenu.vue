@@ -1,8 +1,7 @@
 <template>
     <div class="submenu collapse-item" :class="{ 'active': isActived }">
         <div class="submenu-header touchable" role="tab" :aria-expanded="selected ? 'true' : 'fase'" @click="toggle">
-            <i class="leftmenu_icon
-" :class="icon"></i>
+            <i class="leftmenu_icon" :class="icon"></i>
             <span class="submenu-header-title">{{ title }}</span>
             <span class="submenu_icon float-right"><i class="fa fa-angle-right"></i></span>
         </div>

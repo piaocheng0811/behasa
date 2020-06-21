@@ -14,20 +14,37 @@ export default {
 <style scoped lang="scss">
 @import "../../../css/customvariables";
 a {
-    color: $menu_color;
+    //color: $menu_color;
+    color:white;
     position: relative;
     display: block;
     line-height: 21px;
-    padding: 10px 30px;
+    padding: 12px 31px;
     &:hover {
-        color: $menu_hover_color;
+       // color: $menu_hover_color;
+       // color: #c6c4c4;
+
     }
+
+
     &.active {
-        color: $menu_active_color;
-        background-color: $menu_active;
+       // color: $menu_active_color;
+        color:white;
+       // background-color: $menu_active;
         i {
-            color: $active_icon;
+             //color: $active_icon;
+            color:white;
         }
+        background-color: #9c27b0;
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4);
+        margin: 0 15px 0;
+        border-radius: 3px;
+       // color: #3c4858;
+        padding-left: 16px;
+        padding-right: 10px;
+        text-transform: capitalize;
+        font-size: 14px;
+        letter-spacing: 1px;
     }
 }
 
@@ -43,6 +60,9 @@ a {
 
 .submenu-content-box .listbrdr:active{
     color: #000;
+}
+.submenu-content-box .listbrdr:hover{
+     color: #c6c4c4;
 }
 .submenu-content {
     a {
@@ -62,7 +82,6 @@ a {
 
 .collapse-item .card-content .card-content-box div a {
     padding-left: 43px;
-
 }
 
 .leftmenu_icon {
@@ -72,8 +91,8 @@ a {
     width: 20px;
     text-align: center;
     font-size: 16px;
-    color:$menu_color;
-
-
+    //color:$menu_color;
+    color: white;
 }
+
 </style>

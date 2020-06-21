@@ -280,7 +280,7 @@ export default {
 
 }
 </script>
-<style src="assets/css/wenk.css"></style>
+
 <style scoped>
 .wenkborder {
     border: 1px solid #ccc;

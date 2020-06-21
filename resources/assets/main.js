@@ -10,6 +10,11 @@ import VueAnalytics from 'vue-analytics'
 // }
 
 // Google Analytics
+
+import {i18n} from "common/i18n";
+window.$ = require('jquery')
+window.JQuery = require('jquery')
+
 const google_analytics_key = store.state.google_analytics_key
 
 if (google_analytics_key && google_analytics_key.length) {
@@ -29,12 +34,12 @@ if (google_analytics_key && google_analytics_key.length) {
 
 }
 
-// Remove the productionTip in dev tool console
-Vue.config.productionTip = false
 
+Vue.config.productionTip = false
 new Vue({
     el: '#app',
     router,
     store,
+    i18n,
     render: h => h(App)
 })

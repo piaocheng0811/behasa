@@ -9,10 +9,24 @@ const routes = [
         children: layout_routes
     },
     {
+        path:'/choose-option',
+        name: 'choose-option',
+        component:resolve => require(['pages/choose_option'], resolve),
+    },
+    {
         path: '/admin',
         name: 'Admin Layout',
         component: resolve => require(['src/admin_layout'], resolve),
         children: admin_layout_routes
+    },
+
+    {
+        path: '/admin/login',
+        name: 'login',
+        component: resolve => require(['pages/admin_login'], resolve),
+        meta: {
+            title: "Admin Login",
+        }
     },
     {
         path: '/login',

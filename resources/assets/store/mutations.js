@@ -48,6 +48,15 @@ let mutations = {
             }
         });
         state.cal_events.splice(id_index, 1);
+    },
+    changeUser(state,user){
+        state.user=user;
+    },
+    changeAdmin(state,user){
+        state.user=user;
+    },
+    updateCustomerOption(state, option){
+        state.customer_option=option;
     }
 }
 export default mutations

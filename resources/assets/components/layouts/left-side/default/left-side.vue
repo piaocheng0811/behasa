@@ -1,30 +1,33 @@
  <template>
     <!-- Left side column. contains the logo and sidebar -->
-    <aside class="left-aside sidebar-offcanvas">
-        <!-- sidebar: style can be found in sidebar-->
-        <section class="sidebar">
-            <div id="menu" role="navigation">
-                <div class="nav_profile">
-                    <profile></profile>
-                </div>
-                <vmenu>
-                    <template v-for="item in menuitems">
-                        <li class="divider mt-3 " v-if="item.title">
-                            <span>{{item.name}}</span>
-                        </li>
-                        <vsub-menu v-if="item.child" :title="item.name" :icon="item.icon">
-                            <vmenu-item v-for="child in item.child" :link="child.link" :icon="child.icon" :key="child.name">{{child.name}}</vmenu-item>
-                        </vsub-menu>
-                        <vmenu-item v-if="item.link" :link="item.link" :icon="item.icon">{{ item.name}}
-                        </vmenu-item>
-                    </template>
-                </vmenu>
-                <!-- / .navigation -->
-            </div>
-            <!-- menu -->
-        </section>
-        <!-- /.sidebar -->
-    </aside>
+     <div>
+         <aside data-background-color="black" class="left-aside sidebar-offcanvas bk-img-black" style="background-image: url(http://localhost/vuejs-laravel/public/images/left-side-bk.png);">
+             <div>
+<!--                 <section class="sidebar">-->
+                 <section>
+                     <div id="menu" role="navigation">
+                         <div class="nav_profile">
+                             <profile></profile>
+                         </div><br>
+                         <vmenu>
+                             <template v-for="item in menuitems">
+                                 <li class="divider mt-3 " v-if="item.title">
+                                     <span>{{item.name}}</span>
+                                 </li>
+                                 <vsub-menu v-if="item.child" :title="item.name" :icon="item.icon">
+                                     <vmenu-item v-for="child in item.child" :link="child.link" :icon="child.icon" :key="child.name">{{child.name}}</vmenu-item>
+                                 </vsub-menu>
+                                 <vmenu-item v-if="item.link" :link="item.link" :icon="item.icon">{{ $t(item.name)}}</vmenu-item>
+                             </template>
+                         </vmenu>
+                         <!-- / .navigation -->
+                     </div>
+                     <!-- menu -->
+                 </section>
+             </div>
+         </aside>
+     </div>
+
 </template>
 <script>
 import {
@@ -105,4 +108,12 @@ export default {
 .nav_profile{
     border-bottom:1px solid #eee;
 }
+.bk-img-black{
+    /*background-image: url('file:///C:/xampp/htdocs/vuejs-laravel/public/images/left-side-bk.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .bk-img{
+
+    }
 </style>

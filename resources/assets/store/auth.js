@@ -29,7 +29,15 @@ const actions = {
     },
     logout({commit}) {
         JwtService.destroyUser('user');
-    }
+    },
+    adminLogin({commit}, data) {
+        JwtService.saveUser('user',data);
+
+    },
+    adminLogout({commit}) {
+        JwtService.destroyUser('user');
+    },
+
 }
 
 export default {
