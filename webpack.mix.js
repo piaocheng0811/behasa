@@ -22,7 +22,7 @@ const path = require('path')
 // });
 
 // set path for production link
-mix.setResourceRoot('/vuejs-laravel/public/')
+mix.setResourceRoot('/public/')
 //====set alias for isotope
 mix.webpackConfig({
     resolve: {
