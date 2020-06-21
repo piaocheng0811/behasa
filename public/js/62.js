@@ -3,7 +3,7 @@ webpackJsonp([62],{
 /***/ 1076:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/logo_black.png?117d588be583d4d6e207df3054b95a99";
+module.exports = "/Educ/public/images/logo_black.png?117d588be583d4d6e207df3054b95a99";
 
 /***/ }),
 
@@ -601,7 +601,7 @@ if (false) {
 /***/ 1735:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/login_user-01.png?11f289cac06c5b1a19de1d9cd11f677c";
+module.exports = "/Educ/public/images/login_user-01.png?11f289cac06c5b1a19de1d9cd11f677c";
 
 /***/ }),
 
@@ -2105,7 +2105,7 @@ module.exports = function escape(url) {
 /***/ 994:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
+module.exports = "/Educ/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
 
 /***/ })
 

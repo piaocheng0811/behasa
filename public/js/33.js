@@ -598,7 +598,7 @@ if (false) {
 /***/ 1418:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/headsset.jpg?245c36115c3940ba33b2dfb593d9a40c";
+module.exports = "/Educ/public/images/headsset.jpg?245c36115c3940ba33b2dfb593d9a40c";
 
 /***/ }),
 

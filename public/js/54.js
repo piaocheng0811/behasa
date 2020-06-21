@@ -3,7 +3,7 @@ webpackJsonp([54],{
 /***/ 1005:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/symbol.png?b516713de274c8ca34e14bd8acfc8460";
+module.exports = "/Educ/public/images/symbol.png?b516713de274c8ca34e14bd8acfc8460";
 
 /***/ }),
 
@@ -7812,7 +7812,7 @@ exports.default = {
 /***/ 994:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
+module.exports = "/Educ/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
 
 /***/ })
 

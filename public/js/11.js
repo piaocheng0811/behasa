@@ -3,21 +3,21 @@ webpackJsonp([11],{
 /***/ 1006:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
+module.exports = "/Educ/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
 /***/ 1041:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
+module.exports = "/Educ/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
 
 /***/ }),
 
 /***/ 1043:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
+module.exports = "/Educ/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
@@ -2229,21 +2229,21 @@ if (false) {
 /***/ 1511:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/item1.jpg?560cd40622949e225ea605672406bf74";
+module.exports = "/Educ/public/images/item1.jpg?560cd40622949e225ea605672406bf74";
 
 /***/ }),
 
 /***/ 1512:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/item2.jpg?cb1555f63928f3c7eb0a8907f5dcc70c";
+module.exports = "/Educ/public/images/item2.jpg?cb1555f63928f3c7eb0a8907f5dcc70c";
 
 /***/ }),
 
 /***/ 1513:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/item3.jpg?d14718f6784393c2d1e4eb80166dd6a6";
+module.exports = "/Educ/public/images/item3.jpg?d14718f6784393c2d1e4eb80166dd6a6";
 
 /***/ }),
 
@@ -2298,21 +2298,21 @@ module.exports = Component.exports
 /***/ 971:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
+module.exports = "/Educ/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
 /***/ 972:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+module.exports = "/Educ/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
 /***/ 979:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
+module.exports = "/Educ/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ })
 

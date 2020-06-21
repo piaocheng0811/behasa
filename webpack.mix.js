@@ -22,7 +22,7 @@ const path = require('path')
 // });
 
 // set path for production link
-mix.setResourceRoot('/public/')
+mix.setResourceRoot('/Educ/public/')
 //====set alias for isotope
 mix.webpackConfig({
     resolve: {

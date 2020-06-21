@@ -145,28 +145,28 @@ if (false) {
 /***/ 1042:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/chat_background.png?419bfcd352cbdce9d93ceb3eb8d15c02";
+module.exports = "/Educ/public/images/chat_background.png?419bfcd352cbdce9d93ceb3eb8d15c02";
 
 /***/ }),
 
 /***/ 1043:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
+module.exports = "/Educ/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
 /***/ 1080:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/chat_background2.jpeg?54fd8848415d7a03b2dc39e56525981c";
+module.exports = "/Educ/public/images/chat_background2.jpeg?54fd8848415d7a03b2dc39e56525981c";
 
 /***/ }),
 
 /***/ 1081:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/chat_background3.jpg?fce25458ac061addf13ea6f194753033";
+module.exports = "/Educ/public/images/chat_background3.jpg?fce25458ac061addf13ea6f194753033";
 
 /***/ }),
 
@@ -1064,28 +1064,28 @@ module.exports = function escape(url) {
 /***/ 971:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
+module.exports = "/Educ/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
 /***/ 972:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+module.exports = "/Educ/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
 /***/ 979:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
+module.exports = "/Educ/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
 /***/ 990:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
+module.exports = "/Educ/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 

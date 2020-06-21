@@ -19647,7 +19647,7 @@ var actions = {
 /***/ 762:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/prf4.jpg?3b4ea1ffe3e8e4dd7f91cc126f3fdfdf";
+module.exports = "/Educ/public/images/prf4.jpg?3b4ea1ffe3e8e4dd7f91cc126f3fdfdf";
 
 /***/ }),
 

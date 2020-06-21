@@ -3,7 +3,7 @@ webpackJsonp([5],{
 /***/ 1041:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
+module.exports = "/Educ/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
 
 /***/ }),
 
@@ -446,28 +446,28 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /***/ 1075:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog1.jpeg?b7bb88cd525e2e8a4cc949abbfd718f6";
+module.exports = "/Educ/public/images/blog1.jpeg?b7bb88cd525e2e8a4cc949abbfd718f6";
 
 /***/ }),
 
 /***/ 1079:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/timeline1.jpeg?ba84c7d44073b271195164e3b09d758a";
+module.exports = "/Educ/public/images/timeline1.jpeg?ba84c7d44073b271195164e3b09d758a";
 
 /***/ }),
 
 /***/ 1083:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog2.png?312c85faffcb6b93d81e568492f9c11a";
+module.exports = "/Educ/public/images/blog2.png?312c85faffcb6b93d81e568492f9c11a";
 
 /***/ }),
 
 /***/ 1084:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog3.jpeg?547754c500a7d61c870d5a9399be045a";
+module.exports = "/Educ/public/images/blog3.jpeg?547754c500a7d61c870d5a9399be045a";
 
 /***/ }),
 
@@ -19427,7 +19427,7 @@ exports.push([module.i, "/*!\n * baguetteBox.js\n * @author  feimosi\n * @versio
 /***/ 1255:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/profile-coverbg.jpeg?2fc506bb24ede731416649c1b2957170";
+module.exports = "/Educ/public/images/profile-coverbg.jpeg?2fc506bb24ede731416649c1b2957170";
 
 /***/ }),
 

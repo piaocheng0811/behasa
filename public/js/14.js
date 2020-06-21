@@ -3,21 +3,21 @@ webpackJsonp([14],{
 /***/ 1012:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
+module.exports = "/Educ/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
 
 /***/ }),
 
 /***/ 1041:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
+module.exports = "/Educ/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
 
 /***/ }),
 
 /***/ 1079:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/timeline1.jpeg?ba84c7d44073b271195164e3b09d758a";
+module.exports = "/Educ/public/images/timeline1.jpeg?ba84c7d44073b271195164e3b09d758a";
 
 /***/ }),
 
@@ -620,7 +620,7 @@ if (false) {
 /***/ 1482:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/health.png?a62090e1f7199d7547f04ae0036c5b71";
+module.exports = "/Educ/public/images/health.png?a62090e1f7199d7547f04ae0036c5b71";
 
 /***/ }),
 
@@ -679,14 +679,14 @@ module.exports = Component.exports
 /***/ 971:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
+module.exports = "/Educ/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
 /***/ 990:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
+module.exports = "/Educ/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ })
 

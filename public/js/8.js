@@ -99,7 +99,7 @@ exports.push([module.i, "/*!\n *  Weather Icons 2.0\n *  Updated August 1, 2015\
 /***/ 1109:
 /***/ (function(module, exports) {
 
-module.exports = "/public/fonts/vendor/weathericons/weathericons-regular-webfont.woff?8cac70ebda3f23ce472110d9f21e8593";
+module.exports = "/Educ/public/fonts/vendor/weathericons/weathericons-regular-webfont.woff?8cac70ebda3f23ce472110d9f21e8593";
 
 /***/ }),
 
@@ -149,7 +149,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 /***/ 1112:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/weathernew.jpg?9cb297ebc24b752abb4d45c5dcbccff3";
+module.exports = "/Educ/public/images/weathernew.jpg?9cb297ebc24b752abb4d45c5dcbccff3";
 
 /***/ }),
 

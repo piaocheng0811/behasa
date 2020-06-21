@@ -145,35 +145,35 @@ if (false) {
 /***/ 1012:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
+module.exports = "/Educ/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
 
 /***/ }),
 
 /***/ 1075:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog1.jpeg?b7bb88cd525e2e8a4cc949abbfd718f6";
+module.exports = "/Educ/public/images/blog1.jpeg?b7bb88cd525e2e8a4cc949abbfd718f6";
 
 /***/ }),
 
 /***/ 1083:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog2.png?312c85faffcb6b93d81e568492f9c11a";
+module.exports = "/Educ/public/images/blog2.png?312c85faffcb6b93d81e568492f9c11a";
 
 /***/ }),
 
 /***/ 1084:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog3.jpeg?547754c500a7d61c870d5a9399be045a";
+module.exports = "/Educ/public/images/blog3.jpeg?547754c500a7d61c870d5a9399be045a";
 
 /***/ }),
 
 /***/ 1255:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/profile-coverbg.jpeg?2fc506bb24ede731416649c1b2957170";
+module.exports = "/Educ/public/images/profile-coverbg.jpeg?2fc506bb24ede731416649c1b2957170";
 
 /***/ }),
 
@@ -1575,14 +1575,14 @@ if (false) {
 /***/ 1564:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog4.jpg?cda3db03063d238afda37f1d1069bde5";
+module.exports = "/Educ/public/images/blog4.jpg?cda3db03063d238afda37f1d1069bde5";
 
 /***/ }),
 
 /***/ 1565:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/blog5.jpg?4540bbc47aca53104d50d1e66b2dd0b6";
+module.exports = "/Educ/public/images/blog5.jpg?4540bbc47aca53104d50d1e66b2dd0b6";
 
 /***/ }),
 
@@ -1641,28 +1641,28 @@ module.exports = Component.exports
 /***/ 971:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
+module.exports = "/Educ/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
 /***/ 972:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+module.exports = "/Educ/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
 /***/ 979:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
+module.exports = "/Educ/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
 /***/ 990:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
+module.exports = "/Educ/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 

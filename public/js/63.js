@@ -682,7 +682,7 @@ if (false) {
 /***/ 1726:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/logo.png?c72104ecb684b5a513ccb8754e4a190d";
+module.exports = "/Educ/public/images/logo.png?c72104ecb684b5a513ccb8754e4a190d";
 
 /***/ }),
 
@@ -2121,7 +2121,7 @@ module.exports = function escape(url) {
 /***/ 994:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
+module.exports = "/Educ/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
 
 /***/ })
 

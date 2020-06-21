@@ -975,7 +975,7 @@ if (false) {
 /***/ 1308:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/app-loader.gif?7ac99b075223d901652cf3ad95e0f3d7";
+module.exports = "/Educ/public/images/app-loader.gif?7ac99b075223d901652cf3ad95e0f3d7";
 
 /***/ }),
 

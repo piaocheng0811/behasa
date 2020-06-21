@@ -519,14 +519,14 @@ if (false) {
 /***/ 1588:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/vue-w_logo1.png?752dadf8a43f4c910a01b6078fb79395";
+module.exports = "/Educ/public/images/vue-w_logo1.png?752dadf8a43f4c910a01b6078fb79395";
 
 /***/ }),
 
 /***/ 1589:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/invoice_code.jpg?fd1ce6d10dca6ecc3108168b729c37a6";
+module.exports = "/Educ/public/images/invoice_code.jpg?fd1ce6d10dca6ecc3108168b729c37a6";
 
 /***/ }),
 

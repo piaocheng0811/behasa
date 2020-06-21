@@ -3,7 +3,7 @@ webpackJsonp([48],{
 /***/ 1005:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/symbol.png?b516713de274c8ca34e14bd8acfc8460";
+module.exports = "/Educ/public/images/symbol.png?b516713de274c8ca34e14bd8acfc8460";
 
 /***/ }),
 

@@ -3,7 +3,7 @@ webpackJsonp([3],{
 /***/ 1006:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
+module.exports = "/Educ/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
@@ -17,42 +17,42 @@ module.exports = "/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 /***/ 1077:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/T-shirt.png?3c9ddea3f154e52f45c0707f33371cc0";
+module.exports = "/Educ/public/images/T-shirt.png?3c9ddea3f154e52f45c0707f33371cc0";
 
 /***/ }),
 
 /***/ 1085:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/polo.jpg?049e5aafc9c55943b235fa7673333e64";
+module.exports = "/Educ/public/images/polo.jpg?049e5aafc9c55943b235fa7673333e64";
 
 /***/ }),
 
 /***/ 1086:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/shirt70x70.png?db425cd33e825cbd271c1973b4148f91";
+module.exports = "/Educ/public/images/shirt70x70.png?db425cd33e825cbd271c1973b4148f91";
 
 /***/ }),
 
 /***/ 1087:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/bag70x70.png?4379c13fdeaa7484c0d10aa2934fdf1b";
+module.exports = "/Educ/public/images/bag70x70.png?4379c13fdeaa7484c0d10aa2934fdf1b";
 
 /***/ }),
 
 /***/ 1088:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/desk70x70.png?9de1721434aa024ce189a9b9ab4b5a90";
+module.exports = "/Educ/public/images/desk70x70.png?9de1721434aa024ce189a9b9ab4b5a90";
 
 /***/ }),
 
 /***/ 1089:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/183x338_1.png?231f774fb081748f5b4ceff4837e105e";
+module.exports = "/Educ/public/images/183x338_1.png?231f774fb081748f5b4ceff4837e105e";
 
 /***/ }),
 
@@ -3406,14 +3406,14 @@ module.exports = function (css) {
 /***/ 971:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
+module.exports = "/Educ/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
 /***/ 972:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+module.exports = "/Educ/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ })
 

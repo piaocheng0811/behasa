@@ -3,7 +3,7 @@ webpackJsonp([47],{
 /***/ 1006:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
+module.exports = "/Educ/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
@@ -152,14 +152,14 @@ if (false) {
 /***/ 1012:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
+module.exports = "/Educ/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
 
 /***/ }),
 
 /***/ 1043:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
+module.exports = "/Educ/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
@@ -4787,7 +4787,7 @@ exports.push([module.i, "/*!\n *  Weather Icons 2.0\n *  Updated August 1, 2015\
 /***/ 1109:
 /***/ (function(module, exports) {
 
-module.exports = "/public/fonts/vendor/weathericons/weathericons-regular-webfont.woff?8cac70ebda3f23ce472110d9f21e8593";
+module.exports = "/Educ/public/fonts/vendor/weathericons/weathericons-regular-webfont.woff?8cac70ebda3f23ce472110d9f21e8593";
 
 /***/ }),
 
@@ -4837,7 +4837,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 /***/ 1112:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/weathernew.jpg?9cb297ebc24b752abb4d45c5dcbccff3";
+module.exports = "/Educ/public/images/weathernew.jpg?9cb297ebc24b752abb4d45c5dcbccff3";
 
 /***/ }),
 
@@ -11595,7 +11595,7 @@ exports.push([module.i, "/*==Transition code==*/\n.slide-fade-enter-active[data-
 /***/ 1703:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/brick-wall.png?effad1520fc39d8897385d7004d2dbf4";
+module.exports = "/Educ/public/images/brick-wall.png?effad1520fc39d8897385d7004d2dbf4";
 
 /***/ }),
 
@@ -13656,14 +13656,14 @@ if (false) {
 /***/ 1716:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar7.jpg?611f91d558e9e15ce5a00443a4d3948f";
+module.exports = "/Educ/public/images/avatar7.jpg?611f91d558e9e15ce5a00443a4d3948f";
 
 /***/ }),
 
 /***/ 1717:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/user.jpg?4654b410ebe5facf35599d04fbe33621";
+module.exports = "/Educ/public/images/user.jpg?4654b410ebe5facf35599d04fbe33621";
 
 /***/ }),
 
@@ -22352,28 +22352,28 @@ module.exports = function escape(url) {
 /***/ 971:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
+module.exports = "/Educ/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
 /***/ 972:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+module.exports = "/Educ/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
 /***/ 979:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
+module.exports = "/Educ/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
 /***/ 990:
 /***/ (function(module, exports) {
 
-module.exports = "/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
+module.exports = "/Educ/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 
