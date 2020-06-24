@@ -1,16 +1,12 @@
 <template>
-    <div class="" style="min-height:500px">
-        <div>
-            <div class="col-lg-12 mb-3"><br>
-                <b-card header="" header-tag="h4" class="bg-success-card datatable-material">
-                    <div class="section-title">Welcome {{$store.state.user.name}}</div>
-                    <div class="note-description-wrapper m-5 text-center">
-                        <p class="note-description-text">There is 30 Minutes duration to finish the test and the result will be shown at the end.</p>
-                        <button class="btn btn-success btn-lg" @click="startTest">{{$t('home.labels.start_test')}}</button>
-                    </div>
-                </b-card>
+    <div class="panel-white-box" style="min-height:500px">
+        <b-card header="" header-tag="h4" class="bg-success-card datatable-material">
+            <div class="section-title">Welcome {{$store.state.user.name}}</div>
+            <div class="note-description-wrapper m-5 text-center">
+                <p class="note-description-text">There is 30 Minutes duration to finish the test and the result will be shown at the end.</p>
+                <button class="btn btn-success btn-lg" @click="startTest">{{$t('home.labels.start_test')}}</button>
             </div>
-        </div>
+        </b-card>
 
         <div class="full-width-modal" v-if="current_question_number>=0">
             <div class="loader-image" v-if="loader" style="position:fixed; top:50%;left:50%">
@@ -128,7 +124,6 @@
                             </td>
                         </tr>
                     </table>
-
                 </div>
             </div>
 
@@ -141,107 +136,105 @@
     </div>
 </template>
 <script>
-import {i18n} from "../../common/i18n";
-import User_ApiService from "common/user_api.service";
-User_ApiService.init();
+    import {i18n} from "../../common/i18n";
+    import User_ApiService from "common/user_api.service";
+    User_ApiService.init();
 
-export default {
-    name: "home",
-    data(){
-        return {
-            testConfig:{},
-            current_question_number:-1,
-            current_testing_time:1800,
-            questions:[],
-            loader:false,
-            rtl_screen:false,
-            question:{},
-            realtimetest:0,
-            stopOption1:false,
-            optionResult:{
-                successFlag1:false,
-                errorFlag1:false
-            }
-        }
-    },
-    beforeMount() {
-        User_ApiService.get('testConfig',{category:this.$store.state.customer_option.category}).then(
-            result=>{
-                let data=result.data;
-                if(data.status){
-                    this.testConfig=data.data[0];
+    export default {
+        name: "home",
+        data(){
+            return {
+                testConfig:{},
+                current_question_number:-1,
+                current_testing_time:1800,
+                questions:[],
+                loader:false,
+                rtl_screen:false,
+                question:{},
+                realtimetest:0,
+                stopOption1:false,
+                optionResult:{
+                    successFlag1:false,
+                    errorFlag1:false
                 }
             }
-        )
-    },
-    methods:{
-        startTest(){
-            this.current_question_number=0;
-            this.loadTest();
         },
-        loadTest(){
-            this.loader=true
-            let customer_option=this.$store.state.customer_option;
-            let testConfig=this.testConfig;
-            let testOption = {
-                testCategory:testConfig.testcategory,
-                testType: testConfig.category,
-                limit: testConfig.noofquestion,
-                specific:testConfig.noofspecificquestion,
-                common:testConfig.noofcommonquestion,
-                test: testConfig.category,
-                language: customer_option.text_language,
-            }
-            User_ApiService.post('loadTest', testOption).then(
-                result=>{
-                    var data=result.data;
-                    if(data.status==='success'){
-                        this.questions=data.data;
-                        this.questions.map((question, index)=>{
-                            this.questions[index]['audio']="https://www.kozco.com/tech/LRMonoPhase4.wav";
-                        })
-                    }
-                    this.loader=false;
-                    this.question=this.questions[0];
-                },
-                ()=>{
-                    this.loader=false;
-                }
+        beforeMount() {
 
+            User_ApiService.get('testConfig',{category:this.$store.state.customer_option.category}).then(
+                result=>{
+                    let data=result.data;
+                    console.log('testconfig data', data.data[0]);
+                    if(data.status){
+                        this.testConfig=data.data[0];
+                    }
+                }
             )
         },
-        nextQuestion(){
-            this.current_question_number++;
-            this.question=this.questions[this.current_question_number];
-        },
-        previousQuestion(){
-            this.current_question_number--;
-            this.question=this.questions[this.current_question_number];
-        },
-        checkAnswer(){
+        methods:{
+            startTest(){
+                this.current_question_number=0;
+                this.loadTest();
+            },
+            loadTest(){
+                this.loader=true
+                let customer_option=this.$store.state.customer_option;
+                let testConfig=this.testConfig;
+                let testOption = {
+                    testCategory:testConfig.testcategory,
+                    testType: testConfig.category,
+                    limit: testConfig.noofquestion,
+                    specific:testConfig.noofspecificquestion,
+                    common:testConfig.noofcommonquestion,
+                    test: testConfig.category,
+                    language: customer_option.text_language,
+                }
+                User_ApiService.post('loadTest', testOption).then(
+                    result=>{
+                        var data=result.data;
+                        if(data.status==='success'){
+                            this.questions=data.data;
+                            console.log('loadTest', data.data)
+                            this.questions.map((question, index)=>{
+                                this.questions[index]['audio']="https://www.kozco.com/tech/LRMonoPhase4.wav";
+                            })
+                        }
+                        this.loader=false;
+                        this.question=this.questions[0];
+                    },
+                    ()=>{
+                        this.loader=false;
+                    }
 
-        },
-        playOption(question_id, choice_number){
+                )
+            },
+            nextQuestion(){
+                this.current_question_number++;
+                this.question=this.questions[this.current_question_number];
+            },
+            previousQuestion(){
+                this.current_question_number--;
+                this.question=this.questions[this.current_question_number];
+            },
+            checkAnswer(){
 
+            },
+            playOption(question_id, choice_number){
+
+            }
+        },
+        mounted: function() {
+            console.log(i18n.locale);
+        },
+        destroyed: function() {
         }
-    },
-    mounted: function() {
-        console.log(i18n.locale);
-    },
-    destroyed: function() {
     }
-}
 </script>
 <style type="text/css" scoped>
     #color {
         height: 35px;
     }
-    .form-control:disabled{
-        cursor: not-allowed;
-    }
-    .disabled{
-        cursor:not-allowed;
-    }
+
     .form-control:active, .input-group .form-control:hover{
         z-index: 1;
     }
@@ -315,14 +308,6 @@ export default {
         text-shadow: 0px -1px #333;
         border-color: #797B7B;
     }
-    .datatable-context{
-        border:none;
-        padding: 0px !important;
-        margin-top: 20px;
-    }
-    .datatable-context:hover{
-        box-shadow: none;
-    }
     .datatable-material{
         min-height: 700px;
         display: -webkit-box;
@@ -346,32 +331,7 @@ export default {
         color: #333333;
         border: none;
     }
-    .card-icon{
-        border-radius: 3px;
-        padding: 8px 16px;
-        margin-top: -37px;
-        display: flex;
-        float: left;
-        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4);
-        background: linear-gradient(60deg,#ec407a,#d81b60);
-    }
-    .card-icon p{
-        margin-bottom: 0px;
-        font-size: 14px;
-        margin-left: 4px;
-        color: white;
-    }
-    .display-icon{
-        color: whitesmoke;
-        font-size: 18px;
-    }
-    .card{
-        box-shadow:none;
-    }
-    .text-center{
-        padding: 200px;
-    }
-    .section-title{
-        padding: 15px 0;
+    .note-description-wrapper{
+        padding: 200px 0;
     }
 </style>

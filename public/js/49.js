@@ -437,6 +437,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 
@@ -1289,7 +1290,7 @@ var render = function() {
         staticClass: "left-aside sidebar-offcanvas bk-img-black",
         staticStyle: {
           "background-image":
-            "url(http://localhost/vuejs-laravel/public/images/left-side-bk.png)"
+            "url(resources/assets/assets/img/left-side-bk.PNG)"
         },
         attrs: { "data-background-color": "black" }
       },

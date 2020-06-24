@@ -1,7 +1,8 @@
  <template>
     <!-- Left side column. contains the logo and sidebar -->
      <div>
-         <aside data-background-color="black" class="left-aside sidebar-offcanvas bk-img-black" style="background-image: url(http://localhost/vuejs-laravel/public/images/left-side-bk.png);">
+<!--         <aside data-background-color="black" class="left-aside sidebar-offcanvas bk-img-black" style="background-image: url(~img/left-side-bk.PNG);">-->
+         <aside data-background-color="black" class="left-aside sidebar-offcanvas bk-img-black" style="background-image: url(resources/assets/assets/img/left-side-bk.PNG);">
              <div>
 <!--                 <section class="sidebar">-->
                  <section>

@@ -121,7 +121,7 @@
                             this.$set(item,'email',item.email);
                             var photo=`<h5 style="margin-bottom: 0">No Image</h5>`;
                             if(item.photo == '')
-                                photo=`<img class="logo-image" src="http://localhost/vuejs-laravel/public/images/profile/avatar.png" style="width: 32px; height: 32px; border-radius:3px; " alt="No Image">`;
+                                photo=`<img class="logo-image" src="resources/assets/assets/img/avatar.png" style="width: 32px; height: 32px; border-radius:3px; " alt="No Image">`;
                             else
                             photo=`<img class="logo-image" src="${item.photo}" style="width: 32px; height: 32px; border-radius:3px; " alt="No Image">`;
                             this.$set(item, "photo",photo);

@@ -63,10 +63,11 @@ class TestController extends Controller
     }
 
     public function getTestConfig(Request $request){
-        $input=$request->all();
-        $category=$input['category'];
+
+        $category = $request->input('category');
         if(!is_null($category) && $category!="")
-            $result=Testconfig::where('testcategory',$category)->get()->toArray();
+            $result=Testconfig::where('testcategory',$category)->get();
+
         else
             $result=Testconfig::all();
         return response()->json([
@@ -78,7 +79,6 @@ class TestController extends Controller
     public function loadTest(Request $request){
         $input=$request->all();
         $response = array();
-
         if ($input['testType'] == 'realtime') {
             if($input['common'] > 0) {
                 $rows=Questions::where([['isCommon','=',1],['status','=',1]])->orderByRaw("RAND()")
@@ -127,7 +127,6 @@ class TestController extends Controller
                 $result = array_merge($result, $this->getQuestionStmt($result['id'], $input['language']));
                 array_push($response, $result);
             }
-
         }
         $audiolang = isset($input['audiolang']) ? $input['audiolang'] : null;
         if($audiolang != null){
